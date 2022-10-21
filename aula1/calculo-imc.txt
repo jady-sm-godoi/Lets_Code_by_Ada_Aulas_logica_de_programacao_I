@@ -1,0 +1,45 @@
+Farmácia do sr. Joaquim
+
+Cálculo de IMC (peso(Kg) / altura(m) x altura(m))
+Tabela com as faixas de IMC
+//
+
+olhar a data no calendário
+anotar a data na caderneta 
+perguntar o nome
+anotar o nome na caderneta
+perguntar a altura
+verificar a unidade de medida da altura
+se altura não estiver em metros (
+  converter a altura para metros 
+)
+anotar a altura na caderneta
+perguntar o peso
+verificar a unidade de medida do peso
+se peso não estiver em Kg (
+  converter o peso para Kg 
+)
+anotar o peso na caderneta
+buscar os dados na caderneta
+multiplicar a altura pela altura
+anotar o resultado da multiplicação na caderneta
+dividir o peso por pelo resultado da multiplicação anterior.
+anotar o resultado da divisão (IMC)
+se resultado é menor que 18.5(
+  falar para o cliente que ele está abaixo do peso
+  )
+senão resultado é maior ou igual a 18.5 e menor que 25(
+  falar para o cliente que ele está peso ideal
+  )
+senão resultado é maior ou igual a 25 e menor que 30(
+  falar para o cliente que ele está pré-obesidade
+  )
+senão resultado é maior ou igual a 30 e menor que 35(
+  falar para o cliente que ele está obesidade grau 1
+  )
+senão resultado é maior ou igual a 35 e menor que 40(
+  falar para o cliente que ele está obesidade grau 2
+  )
+senão resultado é maior ou igual a 40(
+  falar para o cliente que ele está obesidade grau 3
+  )
