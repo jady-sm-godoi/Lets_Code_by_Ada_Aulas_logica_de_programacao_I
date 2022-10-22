@@ -5,11 +5,17 @@ Crie um código que recebe 3 notas de um aluno entre 0 e 10 e calcule a média.
 - Coloque validação se o usuário preencheu todas as notas e se elas estão entre 0-10, se uma dessas regras de validação não for cumprida, peça para ele começar novamente
  */
 
+const turma = "906 - OIDevs"
 
-let nota1 = 1.0;
-let nota2 = 2.3;
-let nota3 = 9.0;
+let primeiraNota = prompt('Digite a primeiro nota do aluno:');
+let segundaNota = prompt('Digite a segunda nota do aluno:');
+let terceiraNota = prompt('Digite a terceira nota do aluno:');
+
+const nota1 = parseFloat(primeiraNota);
+const nota2 = parseFloat(segundaNota);
+const nota3 = parseFloat(terceiraNota);
 const notas = []
+let resultado;
 
 if(nota1 != null && nota1 >= 0 && nota1 <= 10){
   notas.push(nota1)
@@ -24,11 +30,14 @@ if(nota3 != null && nota3 >= 0 && nota3 <= 10){
 const media = (nota1 + nota2 + nota3) / 3
 
 if(notas.length < 3){
-  console.log('Opa! Alguma nota não está certa. Por favor, comece novamente.')
+  resultado = 'Opa! Alguma nota não está certa. Por favor, comece novamente.'
 } else if(media < 5){
-  console.log(`Que pena! Aluno reprovado. A média das notas foi ${media.toFixed(2)}`)
+  resultado = `Aluno reprovado! A média das notas foi ${media.toFixed(2)}`
 } else {
-  console.log(`Parabéns! Aluno aprovado. A média das notas foi ${media.toFixed(2)}`)
+  resultado = `Aluno aprovado! A média das notas foi ${media.toFixed(2)}`
 }
 
-const x = prompt('Digite um número:');
+document.write(`
+  <h1>Exercício 2 - turma ${turma}</h1>
+  <h2>${resultado}</h2>
+`);
