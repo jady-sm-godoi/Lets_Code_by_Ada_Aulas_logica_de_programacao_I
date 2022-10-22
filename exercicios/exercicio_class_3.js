@@ -30,3 +30,5 @@ if(notas.length < 3){
 } else {
   console.log(`Parabéns! Aluno aprovado. A média das notas foi ${media.toFixed(2)}`)
 }
+
+const x = prompt('Digite um número:');
