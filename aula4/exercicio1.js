@@ -1,5 +1,7 @@
 /*
-  Faça um programa que recebe três números do usuário, e identifica o maior através de uma função e o menor número através de outra função.
+  Faça um programa que recebe três números do usuário, 
+  e identifica o maior através de uma função e 
+  o menor número através de outra função.
 */
 
 // const numero1 = 90;
@@ -26,3 +28,4 @@ function menorNumero(){
 
 console.log(maiorNumero(lista[0], lista[1], lista[2]))
 console.log(menorNumero(...lista))
+
