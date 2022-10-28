@@ -1,0 +1,60 @@
+html {
+    min-height: 100%;
+}
+
+body{
+    background-image: url("./assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 1rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1, h2, p {
+    color: white;
+}
+
+header button {
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    text-align: center;
+    background-color: transparent !important;
+}
+
+.list-group-item{
+    background-color: rgba(255, 255, 255, 0.631);
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 7px 5px;
+}
+
+.list-group-item button{
+    flex: 1
+}
+
+.conteudo{
+    flex: 7;
+}
+
+.conteudo p{
+    color: black;
+}
+
+.conteudo h3, p{
+    margin: 0;
+    
+}
+
+.controls{
+    display: flex;
+    gap: 4px;
+    flex: 1;
+    padding: 0 5px;
+}
+
