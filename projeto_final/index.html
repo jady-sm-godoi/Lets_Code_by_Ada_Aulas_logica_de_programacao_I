@@ -16,7 +16,7 @@
             <h2>11:27</h2>
             <p>Sexta-feira, 25 de fevereiro</p>
         </div>
-        <button type="button" class="btn btn-outline-dark btn-lg text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn btn-outline-dark btn-lg text-light" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="adicionarTarefa()">
             <i class="bi bi-plus-circle" style="font-size: 2rem"></i>
         </button>
     </header>
@@ -46,7 +46,7 @@
                 </form>
             </div>
             <div class="modal-footer">
-            <button type="submit" class="btn btn-primary" data-bs-dismiss="modal" onclick="createToDo()">Salvar</button>
+            <button type="submit" class="btn btn-primary" data-bs-dismiss="modal" id="submitTask">Salvar</button>
             </div>
         </div>
         </div>
