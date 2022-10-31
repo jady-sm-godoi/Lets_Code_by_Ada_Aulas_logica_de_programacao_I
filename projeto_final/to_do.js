@@ -87,6 +87,9 @@ const updateToDo = () => {
     toDo.push({title: inputTitle, cat: inputCategory, hour: inputHour, completed: false})
     
     readToDo()
+    document.getElementById('idTitle').value = ''
+    document.getElementById('idCategory').value = ''
+    document.getElementById('idHour').value = ''
 }
 
 //função para apagar
