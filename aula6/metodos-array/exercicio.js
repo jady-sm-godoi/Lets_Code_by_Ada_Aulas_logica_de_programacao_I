@@ -20,15 +20,17 @@ const toOrdenate = (array) => {
   }
 }
 
-// toOrdenate(listaDesordenada)
-// console.log(listaDesordenada);
+toOrdenate(listaDesordenada)
+console.log(listaDesordenada);
 
 //2.
 const outralistaDesordenada = [24,90,78,9,101,8,12,22,545,8,0,1,74,25,63,100,159,458,2547,33]
 
 outralistaDesordenada.sort((a,b) => b - a)
-/*o método array.prototype.sort() se não receber uma função como parametro, 
-ordena a lista transformando cada elemento em string e colocando em ordem alfabética.
-Para colocar números em ordem crescente, usamos a função (a,b) => a - b
-Para colocar números em ordem decrescente, usamos a função (a,b) => b - a*/
+// /*o método array.prototype.sort() se não receber uma função como parametro, 
+// ordena a lista transformando cada elemento em string e colocando em ordem alfabética.
+// Para colocar números em ordem crescente, usamos a função (a,b) => a - b
+// Para colocar números em ordem decrescente, usamos a função (a,b) => b - a*/
 console.log(outralistaDesordenada);
+
+// //fonte(https://www.youtube.com/watch?v=l-AEeyGmejk)

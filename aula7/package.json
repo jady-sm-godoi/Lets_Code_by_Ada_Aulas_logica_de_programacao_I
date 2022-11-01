@@ -1,0 +1,12 @@
+{
+  "name": "alunos-import",
+  "version": "1.0.0",
+  "description": "para uso na aula",
+  "main": "alunos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jady",
+  "license": "ISC",
+  "type": "module"
+}
